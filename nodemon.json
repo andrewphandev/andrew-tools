@@ -1,0 +1,13 @@
+{
+  "verbose": true,
+  "ignore": [
+    "test.js",
+    "package-lock.json",
+    "*.test.js",
+    "*.yml",
+    "logs/*",
+    "dist/*",
+    "www/*",
+    "logs/*"
+  ]
+}

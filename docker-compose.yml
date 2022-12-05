@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  mongodb:
+    image: mongo:4.4
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongoadmin
+      MONGO_INITDB_ROOT_PASSWORD: secret
+    volumes:
+      - /home/tester/andrew-tool/docker-database/db-data:/data/db
+      - /home/tester/andrew-tool/docker-database/backup:/backup
+    ports:
+      - 27018:27017

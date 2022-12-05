@@ -1,0 +1,7 @@
+docker-database
+logs
+dist/
+www/
+node_modules/
+.env
+yarn.lock
